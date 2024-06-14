@@ -1,21 +1,82 @@
 /* Drill 1 - Write your code solution below */
-p {
-    
+div .solution p {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: red;
+    padding: 10px;
+}
+div #d1-p2 {
+    border-color: orange;
+    color: limegreen;
 }
 
-
 /* Drill 2 - Write your code solution below */
+.d2-p {
+    color: orangered;
+}
 
-
+.purple2 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+.blue2 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: -150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 /* Drill 3 - Write your code solution below */
-
-
+.s1 span{
+    color: magenta;
+}
+.d3-div1 {
+    border: 5px dashed green;
+}
+.d3-div2 {
+    margin-top: 10px;
+    border: 10px dotted purple;
+}
 
 /* Drill 4 - Write your code solution below */
-
-
+.d4-s1 {
+    border: 1px solid rgb(68, 68, 255);
+    box-shadow: 8px 7px rgb(68, 68, 255);
+}
+.d4-box1 {
+    background-color: skyblue;
+}
+.d4-s2 {
+    border: 1px solid rgb(68, 68, 255);
+    box-shadow: 5px inset rgb(68, 68, 255);
+}
 
 /* Drill 5 - Write your code solution below */
-
-
+#doggo {
+    border-radius: 300px;
+    resize: both 10px;
+}
+.d5-s1 {
+    inset-block: 10px;
+    border: 20px dotted red;
+}
+.d5-s2 {
+    inset-block: 10px;
+    border-color: rgb(164, 151, 12);
+    border-width: 20px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    border-right-style: solid;
+}
