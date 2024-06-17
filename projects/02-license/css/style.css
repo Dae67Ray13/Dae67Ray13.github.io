@@ -1,0 +1,88 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+div#license {
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 24px;
+    background-color: rgb(235, 170, 110);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.281);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#left-side {
+    display: inline-block;
+    width: 65%;
+}
+div#id-and-expiration {
+    display: inline-block;
+    font-size: small;
+}
+div#data-fields {
+    display: inline-block;
+}
+div#small-pic-container {
+    resize: both;
+}
+div#data-left {
+    display: inline-block;
+}
+div#data-right {
+    display: inline-block;
+}
+div#right-side {
+    display: inline-block;
+    width: 34%;
+}
+div#left-side {
+    display: inline-block;
+}
+div#right-side img {
+    display: inline-block;
+    width: 100%;
+}
+div#donor {
+    display: inline-block;
+    color: red;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-weight: bolder
+}
+div#real-id {
+    display: inline-block;
+    color: white;
+    background-color: gold;
+    border-radius: 50%;
+    padding: 4px;
+}
+div#left-side img {
+    display: inline-block;
+    width: 20%;
+    opacity: calc(50%);
+}
+span {
+    color: red;
+}
+div span {
+    font-weight: bold;
+}
+div#address {
+    font-weight: bolder;
+}
+h1 {
+    font-size: xxx-large;
+    color: rgb(2, 2, 145);
+    font-family: 'Times New Roman', Times, serif;
+}
+h4 {
+    color: white;
+    background-color: rgb(2, 2, 145);
+    text-align: center;
+    padding: 3px;
+    font-size: x-large;
+}
