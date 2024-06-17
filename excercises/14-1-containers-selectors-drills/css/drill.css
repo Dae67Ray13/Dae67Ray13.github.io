@@ -63,20 +63,39 @@ div #d1-p2 {
 }
 
 /* Drill 5 - Write your code solution below */
-#doggo {
-    border-radius: 300px;
-    resize: both 10px;
-}
-.d5-s1 {
-    inset-block: 10px;
+.d5-s1-1 {
     border: 20px dotted red;
 }
-.d5-s2 {
+.d5-s1 {
+    display: inline-block;
+}
+#doggo {
+    border-radius: 300px;
+    width: 200px;
+}
+.d5-p{
+    width: 150px;
+    margin-left: 10px;
+}
+
+.d5-s2-1 {
     inset-block: 10px;
-    border-color: rgb(164, 151, 12);
+    border-color: rgb(171, 184, 110);
     border-width: 20px;
     border-top-style: dashed;
     border-bottom-style: dashed;
     border-left-style: solid;
     border-right-style: solid;
+}
+.d5-s2 {
+    display: inline-block;
+    text-align: right;
+}
+#cleo-cat-pur-ra {
+    border-width: 0px;
+    width: 250px;
+}
+.d5-p{
+    width: 150px;
+    margin-right: 20px;
 }
