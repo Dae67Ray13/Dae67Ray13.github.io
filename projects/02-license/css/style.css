@@ -19,6 +19,10 @@ div#left-side {
     display: inline-block;
     width: 65%;
 }
+div#right-side {
+    display: inline-block;
+    width: 34%;
+}
 div#id-and-expiration {
     display: inline-block;
     font-size: small;
@@ -34,10 +38,6 @@ div#data-left {
 }
 div#data-right {
     display: inline-block;
-}
-div#right-side {
-    display: inline-block;
-    width: 34%;
 }
 div#left-side {
     display: inline-block;
