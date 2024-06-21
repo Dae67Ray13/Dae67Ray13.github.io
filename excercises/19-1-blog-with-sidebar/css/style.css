@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: #EB6408;
+    background-color: #0A0A0A;
+}
+
+#camp-halfblood-entrance {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entrance {
+    text-align: center;
+}
+
+#heading1 {
+    text-align: center;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas: "content sidebar";
+    margin: 36px 0px;
+}
+
+#sidebar-content {
+    grid-area: sidebar;
+    padding: 18px;
+}
+
+#sidebar-content h2 {
+    background-color: d;
+    margin: 0px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+#sidebar-content ul {
+    background-color: E;
+    border: 1px solid da;
+    margin: 0px 0px 36px; 
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+#sidebar-content a {
+    color: d;
+    text-decoration: none;
+}
+
+#sidebar-content li {
+    border-bottom: 1px solid d;
+    padding: 8px 0px;
+}
+
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+}
