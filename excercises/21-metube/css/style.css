@@ -4,7 +4,17 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif; 
+    font-family: sans-serif;
+    color: #00A1D3;
+    background-color: #0F0F0F;
+}
+
+#profile1 {
+    border-radius: 100%;
+}
+
+#profile2 {
+    border-radius: 100%;
 }
 
 #grid-layout {
@@ -27,8 +37,8 @@ body {
 
 #main {
     grid-area: main;
-    display: flex; 
-    flex-wrap: wrap; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
 }
 
 #header a {
@@ -36,12 +46,12 @@ body {
 }
 
 #header #me {
-    color: #111111;
+    color: white;
 }
 
 #header #tube {
-    color: white;
-    background-color: red;
+    color: black;
+    background-color: #1C85A5;
     padding: 4px;
     border-radius: 12px;
 }
@@ -53,10 +63,9 @@ body {
     border-bottom: 1px solid #AAAAAA
 }
 
-
 #sidebar ul a {
     text-decoration: none;
-    color: #111111;
+    color: #00A1D3;
     display: block;
     padding: 12px;
 }
@@ -72,9 +81,32 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
+.metube-item .thumbnail-1 {
     aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, crimson, orange);
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-2 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-3 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-4 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-5 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-6 {
     border-radius: 8px;
 }
 
@@ -84,7 +116,7 @@ body {
 
 .metube-item h4 a {
     text-decoration: none;
-    color: #111111;
+    color: #00A1D3;
     display: block;
 }
 
