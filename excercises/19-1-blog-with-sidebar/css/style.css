@@ -21,6 +21,13 @@ body {
 
 #heading1 {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#camp-info {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 40%;
 }
 
 #grid-layout {
@@ -35,7 +42,7 @@ body {
     padding: 18px;
 }
 
-#sidebar-content h2 {
+#sidebar-content h4 {
     background-color: d;
     margin: 0px;
     padding: 12px;
