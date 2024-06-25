@@ -15,12 +15,26 @@ body {
 
 #header a {
     text-decoration: none;
+    color: white;
     border-radius: 12px;
 }
 
 #header #mebay {
-    padding-left: 10px;
-    color: white;
+    display: block;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.payment {
+    display: inline-block;
+    background-color: white;
+    padding: 4px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
 }
 
 #three-columns {
@@ -76,4 +90,18 @@ body {
     background-color: #343434;
     border-radius: 4px;
     padding: 24px;
+}
+
+#sold {
+    color: red;
+}
+
+.buttons {
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    font-weight: lighter;
+    background-color: teal;
+    padding: 6px;
+    border-radius: 50px;
 }
