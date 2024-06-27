@@ -24,13 +24,13 @@
     display: inline-block;
 }
 
-.logo {
+.animagram-header .logo {
     text-align: left;
 }
 
-.brand-name {
+.animagram-header .brand-name {
     background-color: #008000;
-    text-align: ;
+    text-align: right;
 }
 
 #trek-card-1 {
