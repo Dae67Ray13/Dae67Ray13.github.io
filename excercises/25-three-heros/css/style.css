@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    color: rgb(0, 96, 80);
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/stars-on-velvet.jpg");
+    font-size: xx-large;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    width: 80px;
+    height: 30px;
+    padding-top: 4px;
+    background-color: black;
+    padding: 800x;
+    margin: 15px;
+    border-radius: 50%;
+    margin-right: 280px;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(25, 25, 112, 0.718);
+    color: rgb(225, 225, 249);
+}
+
+.image {
+    color: black;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-right: 200px;
+}
+
+#image1 {
+    color: black;
+    background-image: url("../images/emerald-seas.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#image2 {
+    color: black;
+    background-image: url("../images/misty-mountains.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: start;
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+#image3 {
+    color: black;
+    background-image: url("../images/snowy-wasteland.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: start;
+}
+
+#image3 .button {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    width: 200px;
+    height: 100px;
+    padding-top: 39px;
+    background-color: black;
+    padding: 800x;
+    margin: 15px;
+    border-radius: 50%;
+    margin-right: 280px;
+    color: white;
+    align-items: end;
+}
