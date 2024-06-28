@@ -11,7 +11,9 @@
     border-radius: 35px;
     background-color: white;
     width: 50vw;
+    height: 540px;
     max-width: 340px;
+    min-width: 340px;
     margin: 19px auto;
     display: flex; 
     flex-wrap: wrap;
@@ -19,106 +21,43 @@
     justify-content: center;
 }
 
-.animagram-header {
-    margin: 20px auto;
-    display: inline-block;
+.animagram-header span {
+    margin-top: 20px;
 }
 
 .animagram-header .logo {
-    text-align: left;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-right: 90px;
 }
 
 .animagram-header .brand-name {
-    background-color: #008000;
-    text-align: right;
+    font-weight: 1100;
+    font-size: 27px;
 }
 
-#trek-card-1 {
-    width: 90vw;
-    max-width: 350px;
-    margin: 19px auto;
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 36px;
-    justify-content: center;
+.card-style-2 img {
+    border-radius: 100%;
+    width: 60%;
+    margin-left: 65px;
 }
 
-#trek-card-2 {
-    width: 90vw;
-    max-width: 350px;
-    margin: 19px auto;
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 36px;
-    justify-content: center;
-}
-
-#trek-card-3 {
-    width: 90vw;
-    max-width: 350px;
-    margin: 19px auto;
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 36px;
-    justify-content: center;
-}
-
-#trek-card-4 {
-    width: 90vw;
-    max-width: 350px;
-    margin: 19px auto;
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 36px;
-    justify-content: center;
-}
-
-.card-style-1 {
-    width: 350px;
-    padding: 10px;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.591);
-    background-color: #EEFFEE;
-    display: flex;
-    flex-direction: column;
-}
-
-.card-style-1 img {
-    width: 100%;
-    max-width: 350px;
-    margin-left: 0px;
-    margin-right: 0px;
-    height: 350px;
-}
-
-.card-style-1 h2 {
-    font-size: 25px;
+h2 {
     text-align: center;
-    margin-top: 12px;
-    margin-bottom: 0px;
+    margin-top: -20px;
 }
 
-.card-style-1 p {
-    font-size: 18px;
-    flex: 1;
-}
-
-.card-style-1 a {
-    color: #EEFFEE;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #008000;
-    display: inline-block;
-    width: 100%;
-    padding: 10px;
+p {
     text-align: center;
-    border: 3px solid #008000;
-    transition:
-        background-color .5s,
-        color .5s;
+    margin-top: -40px;
+    padding: 0px 10%;
 }
 
-.card-style-1 a:hover {
-    background-color: transparent;
-    color: #008000;
+.animagram-footer {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.animagram-footer span {
+    margin-right: 25px;
 }
