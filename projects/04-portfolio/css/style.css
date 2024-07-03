@@ -39,8 +39,11 @@ a {
     margin-right: 280px;
 }
 
-.button p:hover {
+#artwork:hover {
     background-image: url('../images/Main/Artwork_hover.png');
+}
+
+.button p:hover {
     color: white;
 }
 
