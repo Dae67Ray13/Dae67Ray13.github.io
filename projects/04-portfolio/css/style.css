@@ -43,6 +43,18 @@ a {
     background-image: url('../images/Main/Artwork_hover.png');
 }
 
+#commission:hover {
+    background-image: url('../images/Main/Commission_hover.png');
+}
+
+#photoshop-edits:hover {
+    background-image: url('../images/Main/PhotoshopEdits_hover.png');
+}
+
+#photo:hover {
+    background-image: url('../images/Main/Photos_hover.png');
+}
+
 .button p:hover {
     color: white;
 }
