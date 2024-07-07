@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #161616;
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+    color: teal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttons {
+    font-size: medium;
+    margin-left: 3%;
+    margin-right: 92%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(3, 0, 50);
+    background-color: teal;
+    border: 3px solid teal;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.buttons:hover {
+    color: rgb(1, 167, 167);
+    background-color: rgba(0, 128, 128, 0.32);
+    border: 3px solid rgb(1, 167, 167);
+}
+
+.artwork-gallery {
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #161616;
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    color: teal;
+}
+
+.hero {
+    width: 100%;
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+#gallery {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    width: 80px;
+    height: 30px;
+    padding-top: 4px;
+    padding: 800x;
+    margin: 15px;
+    margin-right: 280px;
+}
+
+#artwork:hover {
+    background-image: url('../images/Main/Artwork_hover.png');
+}
+
+#commission:hover {
+    background-image: url('../images/Main/Commission_hover.png');
+}
+
+#photoshop-edits:hover {
+    background-image: url('../images/Main/PhotoshopEdits_hover.png');
+}
+
+#photo:hover {
+    background-image: url('../images/Main/Photos_hover.png');
+}
+
+.button p:hover {
+    color: white;
+}
+
+.image {
+    color: black;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    font-weight: bolder;
+}
