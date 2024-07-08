@@ -3,66 +3,50 @@
 }
 
 body {
-    margin: 0px;
+    margin: 10px;
     font-family: sans-serif;
     background-color: #161616;
 }
 
-h1 {
+h2 {
     text-align: center;
     font-family: serif;
     color: teal;
-}
-
-.hero {
-    width: 100%;
-    color: aqua;
 }
 
 a {
     text-decoration: none;
 }
 
-#gallery {
+.buttons {
+    font-size: medium;
+    margin-left: 3%;
+    min-width: 20%;
+    max-width: 20%;
+    margin-right: 200px;
+    margin-bottom: 20px;
     text-align: center;
+    color: rgb(3, 0, 50);
+    background-color: teal;
+    border: 3px solid teal;
+    padding: 5px;
 }
 
-.button {
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
-    width: 80px;
-    height: 30px;
-    padding-top: 4px;
-    padding: 800x;
-    margin: 15px;
-    margin-right: 280px;
+.buttons:hover {
+    color: rgb(1, 167, 167);
+    background-color: rgba(0, 128, 128, 0.32);
+    border: 3px solid rgb(1, 167, 167);
 }
 
-#artwork:hover {
-    background-image: url('../images/Main/Artwork_hover.png');
+.commission-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
 }
 
-#commission:hover {
-    background-image: url('../images/Main/Commission_hover.png');
-}
-
-#photoshop-edits:hover {
-    background-image: url('../images/Main/PhotoshopEdits_hover.png');
-}
-
-#photo:hover {
-    background-image: url('../images/Main/Photos_hover.png');
-}
-
-.button p:hover {
-    color: white;
-}
-
-.image {
-    color: black;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    font-weight: bolder;
+.commission-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 30px;
 }
