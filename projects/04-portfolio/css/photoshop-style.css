@@ -39,5 +39,19 @@ a {
 }
 
 .artwork-gallery {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.artwork-gallery img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin: 30px;
+}
+
+#video-game-scene,
+#video-game {
+    width: 70%;
 }

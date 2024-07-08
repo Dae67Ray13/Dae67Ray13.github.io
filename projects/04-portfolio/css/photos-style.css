@@ -38,6 +38,15 @@ a {
     border: 3px solid rgb(1, 167, 167);
 }
 
-.artwork-gallery {
-    text-align: center;
+.photos-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.photos-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 30px;
 }

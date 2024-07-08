@@ -40,13 +40,12 @@ a {
 
 .artwork-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 5fr 5fr 6fr;
     gap: 24px;
 }
 
 .artwork-gallery img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     margin: 30px;
 }
