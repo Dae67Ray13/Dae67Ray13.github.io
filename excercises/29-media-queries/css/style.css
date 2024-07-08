@@ -8,16 +8,28 @@ body {
 }
 
 #nav {
-    background-color: #222222;
+    color: #31043d;
+    background-color: white;
     display: flex;
     justify-content: center;
 }
 
 #nav a {
-    color: white;
+    color: #31043d;
     font-size: 18px;
     text-decoration: none;
     padding: 20px;
+}
+
+#hero {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    background-image: url("../images/abstractBackground.jpg");
+    padding: 10%;
+    width: 100%;
 }
 
 .single-column-layout {
