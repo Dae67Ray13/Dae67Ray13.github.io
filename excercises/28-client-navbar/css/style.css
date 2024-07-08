@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#sh-navbar {
+    background: linear-gradient(to bottom, 
+        rgba(92, 214, 190, 0.765), #058683
+        );
+    display: flex;
+    align-items: center;
+}
+
+#sh-navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#sh-navbar #logo {
+    margin-right: auto;
+}
+
+#sh-navbar #logo img {
+    width: 15
+}
+
+#sh-cta {
+    background-color: rgba(205, 205, 205, 0.665);
+    border: 4px solid rgba(205, 205, 205, 0.32);
+    border-radius: 36px;
+    padding: 10px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#sh-cta:hover {
+    background-color: rgba(205, 205, 205, 0.665);
+    border: 4px solid rgba(255, 255, 255, 0.849);
+}
+
+#ae-navbar {
+    background: linear-gradient(to bottom, 
+        rgba(92, 214, 190, 0.765), #058683
+        );
+    display: flex;
+    align-items: center;
+}
+
+#ae-navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#ae-navbar #logo {
+    margin-right: auto;
+}
+
+#ae-navbar #logo img {
+    width: 15
+}
+
+#ae-cta {
+    background-color: rgba(205, 205, 205, 0.665);
+    border: 4px solid rgba(205, 205, 205, 0.32);
+    border-radius: 36px;
+    padding: 10px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#ae-cta:hover {
+    background-color: rgba(205, 205, 205, 0.665);
+    border: 4px solid rgba(255, 255, 255, 0.849);
+}
+
+#ts-navbar {
+    background: linear-gradient(to bottom, 
+        rgb(255, 136, 1), #864a05
+        );
+    display: flex;
+    align-items: center;
+}
+
+#ts-navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 24px;
+}
+
+#ts-navbar #logo {
+    margin-right: auto;
+}
+
+#ts-navbar #logo img {
+    width: 15
+}
+
+#ts-cta {
+    background-color: rgba(255, 180, 74, 0.788);
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 36px;
+    padding: 10px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#ts-cta:hover {
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.665);
+    border: 4px solid rgba(0, 0, 0, 0.849);
+}
