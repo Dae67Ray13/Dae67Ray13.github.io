@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&family=Montaga&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 250px;
+}
+
+.logo:hover img {
+    background-image: url("../images/Logo/240205_CustomLogoProject_101_Dstgelais_Final_Full\ Color_Full\ Logo.png");
+    cursor: pointer;
+    animation: spin 5s infinite;
+}
+
+.logo:active img {
+    cursor: pointer;
+    background-image: url("../images/Logo/240205_CustomLogoProject_101_Dstgelais_Final_Full\ Color_Logo.png");
+}
+
+@keyframes spin {
+    0% {
+    transform: scaleX(1);
+    }
+    50% {
+    transform: scaleX(-1);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
