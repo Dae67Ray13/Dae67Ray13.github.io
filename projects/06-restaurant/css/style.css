@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #1E5366;
+    color: #FFBF00;
+}
+
+#navbar {
+    background-color: #808285;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #F1F2F2;
+    font-size: larger;
+}
+
 .logo {
     width: 250px;
 }
@@ -12,11 +30,6 @@
     background-image: url("../images/Logo/240205_CustomLogoProject_101_Dstgelais_Final_Full\ Color_Full\ Logo.png");
     cursor: pointer;
     animation: spin 5s infinite;
-}
-
-.logo:active img {
-    cursor: pointer;
-    background-image: url("../images/Logo/240205_CustomLogoProject_101_Dstgelais_Final_Full\ Color_Logo.png");
 }
 
 @keyframes spin {
