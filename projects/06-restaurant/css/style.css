@@ -82,3 +82,37 @@ body {
     width: 90%;
     margin: 1% 5%;
 }
+
+.card2 a {
+    text-decoration: none;
+    color: #ffdc73;
+}
+
+.card2 a:hover {
+    text-decoration: none;
+    color: #236582;
+}
+
+.card2 {
+    width: 75%;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card2 img{
+    width: 20%;
+}
+
+#bev, 
+#app, 
+#sad, 
+#sas, 
+#ent, 
+#dess {
+    background-image: url("../images/Main/brown-white-marble-textured-background.png");
+    background-size: cover;
+    padding: 1%;
+    margin: 3%;
+}
