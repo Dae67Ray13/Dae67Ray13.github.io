@@ -11,25 +11,41 @@ body {
 
 #navbar {
     background-color: #808285;
-    padding: 5px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 1px;
 }
 
 #navbar a {
     text-decoration: none;
     color: #F1F2F2;
-    font-size: larger;
 }
 
-.logo {
-    width: 250px;
+#navbar #logo {
+    margin-right: auto;
 }
 
-.logo:hover img {
+#navbar #logo img {
+    width: 300px;
+}
+
+#logo:hover img {
     background-image: url("../images/Logo/240205_CustomLogoProject_101_Dstgelais_Final_Full\ Color_Full\ Logo.png");
     cursor: pointer;
     animation: spin 5s infinite;
+}
+
+.nav {
+    font-size: 20px;
+    padding: 3%;
+}
+
+#navbar .nav:hover {
+    background-color: #2D81BB;
+}
+
+#navbar .nav a:hover {
+    color: #FFDC73;
 }
 
 @keyframes spin {
@@ -42,4 +58,27 @@ body {
     100% {
     transform: scale(1);
     }
+}
+
+#card1 {
+    width: 95%;
+    border-radius: 5px;
+    background-image: url("../images/Main/black-marbled-surface.jpg");
+    background-size: cover;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin: 2% auto;
+}
+
+#card1 #about{
+    margin: auto;
+    margin-left: 15px;
+    text-align: center;
+    background-color: #1e5366b9;
+}
+
+.styleguide {
+    width: 90%;
+    margin: 1% 5%;
 }
