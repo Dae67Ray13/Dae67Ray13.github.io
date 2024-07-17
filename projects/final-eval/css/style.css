@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: gold;
+    color: red;
+    text-align: center;
+}
+
+.center-column {
+    background-color: lightblue;
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+}
+
+.card {
+    background-image: url("../images/soccer-field-high-angle.jpg");
+    padding: 3%;
+    width: 75%;
+    margin: 4% 12%;
+}
+
+#heading {
+    background-color: rgba(0, 0, 0, 0.571);
+}
+
+#teams-cards {
+    display: grid;
+}
+
+.teams-cards {
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 35%;
+    background-color: white;
+    padding: 4px;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+#button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#button1 {
+    background-color: red;
+    padding: 4px;
+    width: 20%;
+    margin-left: 25%;
+}
+
+#button2 {
+    background-color: red;
+    padding: 4px;
+    width: 20%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .content-container h1 {
+        font-size: 32px;
+    }
+
+    .intro {
+        gap: 24px;
+    }
+
+    .image-container {
+        height: 300px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "txt1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 txt2";
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .content-container h1 {
+        margin: 0px;
+        font-size: 32px
+    }
+
+    .content-container {
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "txt1"
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "txt2";
+    }
+
+    .grid p {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
