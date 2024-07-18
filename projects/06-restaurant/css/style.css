@@ -63,12 +63,16 @@ body {
 #card1 {
     width: 95%;
     border-radius: 5px;
-    background-image: url("../images/Main/black-marbled-surface.jpg");
+    background-image: url("../images/Main/black-marbled-surface.png");
     background-size: cover;
     padding: 15px;
     display: flex;
     flex-direction: row;
     margin: 2% auto;
+}
+
+#card1 img{
+    width: 50%;
 }
 
 #card1 #about{
@@ -111,7 +115,7 @@ body {
 #sas, 
 #ent, 
 #dess {
-    background-image: url("../images/Main/brown-white-marble-textured-background.png");
+    background-image: url("../images/Main/brown-white-marble-textured-background-02.png");
     background-size: cover;
     padding: 1%;
     margin: 3%;
